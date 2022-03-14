@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:kuis1/detail_page.dart';
 
 import 'model/menu.dart';
-
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -10,7 +9,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
+        backgroundColor: Colors.green,
+        title: Center(
+          child: Text("Menu"),
+        ),
+
       ),
       body: Container(
         padding: EdgeInsets.all(20),
