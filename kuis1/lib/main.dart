@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('WARDEPOS'),
+        title: new Text('Data Profile Mahasiswa'),
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
         child: Column(
           children: <Widget>[
             new Container(
-              child: Image.asset('images/Logo.jpg',
+              child: Image.asset('images/Logo.png',
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -44,7 +44,7 @@ class Home extends StatelessWidget {
                 children: <Widget>[
                   new TextField(
                     decoration: new InputDecoration(
-                      hintText: 'Input Your Name',
+                      hintText: 'password admin',
                     ),
                   ),
                 ],
@@ -57,12 +57,13 @@ class Home extends StatelessWidget {
                   var route = new MaterialPageRoute(builder: (context) => HomePage(),
                   );
                   Navigator.of(context).push(route);
+
                 },
                 padding: EdgeInsets.all(10.0),
                 color: Colors.green,
                 textColor: Colors.white,
                 child: Text(
-                  'Search',
+                  'LOGIN',
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
               ),

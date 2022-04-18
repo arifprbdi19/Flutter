@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.green,
         title: Center(
-          child: Text("Menu"),
+          child: Text("Data Mahasiswa"),
         ),
 
       ),
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
       },
     );
   }
-  
+
 
   Widget _createCard(Menu data, BuildContext context) {
     return Card(

@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'model/menu.dart';
 
 class DetailPage extends StatelessWidget {
-  // final Movie movie;
+
   final String image;
   final String name;
   final int price;

@@ -82,11 +82,9 @@ List<Menu> getAllMenu() {
     ),
     Menu(
       name: "Magelangan",
-      image:
-          "https://asset.kompas.com/crops/Aprv8FWSU3AmRPIi8wmgBUtUuGI=/0x0:6000x4000/750x500/data/photo/2020/04/15/5e966c3becce7.jpg",
       desc:
           "Nasi goreng yang dicampur dengan indomi yang bikin nagih terus dan bisa pedas atau tidak pedas sesuai selera",
-      price: 11000,
+      nim: 123190019,
       category: "food",
       ratings: 4.4,
       reviewer: 441,
